@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab_seleniumJava.iml" filepath="$PROJECT_DIR$/.idea/Lab_seleniumJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lb_Selenium/Lb_Selenium.iml" filepath="$PROJECT_DIR$/Lb_Selenium/Lb_Selenium.iml" />
+    </modules>
+  </component>
+</project>
