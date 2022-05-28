@@ -11,33 +11,31 @@ public class consultarDiectorioMedicoHumanoSeguroPage {
 
     //declaracon de los WebElement
     @FindBy(xpath = "//ul[@class='pull-right']/li[2]/a")
-            private WebElement linkDirectorioMedico;
+    private WebElement linkDirectorioMedico;
     @FindBy(id = "selTipoProv")
-             private WebElement seltTipoProveedor;
+    private WebElement seltTipoProveedor;
     @FindBy(xpath = "//*[@id=/divCargando/]/div/div/div")
-            private WebElement londing;
+    private WebElement londing;
 
-   // private final WebDriverWait wait;
+    // private final WebDriverWait wait;
     private WebDriver driver;
 
     //constructor de la clase
     public consultarDiectorioMedicoHumanoSeguroPage(WebDriver driver) {
-      // wait = new WebDriverWait(driver,10);
+        // wait = new WebDriverWait(driver,10);
         PageFactory.initElements(driver, this);
     }
 
     public void cliclinkDirectorioMedico() {
-       // linkDirectorioMedico.click();
-
-
+        // linkDirectorioMedico.click();
     }
 
     public void BusquedaDirectorio() {
-       // wait.until(ExpectedConditions.elementToBeClickable(londing));
+        // wait.until(ExpectedConditions.elementToBeClickable(londing));
         seltTipoProveedor.click();
     }
 
-    public void acceptPopup(){
+    public void acceptPopup() {
 
     }
 
